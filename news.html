@@ -6,6 +6,57 @@
     
     <link href = "css/navigation.css" rel="stylesheet" type="text/css" />
     
+    <style>
+        
+     ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(79, 96, 255);
+    position: sticky;
+    border: 0.5px solid #111;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* flera font-family för säkerhets skull */
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* WHen you hover your mouse over it, the color will be bluish */
+li a:hover {
+    background-color: rgb(25, 66, 141);
+    color: aqua;
+}
+  
+  /* On screens that are 1400px wide or less, the background color is blue */
+  @media screen and (max-width: 1400px) {
+    ul {
+      background-color: blue;
+      color: white;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {
+    ul {
+      background-color: #333;
+      color: white;
+    }
+  }
+  
+        
+    </style>
+    
+    
     </head>
     
     <body>
